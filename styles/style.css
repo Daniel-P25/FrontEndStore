@@ -1,0 +1,18 @@
+:root {
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #FFFFFF;
+    --negro: #000000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html { 
+    box-sizing: border-box;
+}
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
